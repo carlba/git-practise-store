@@ -8,5 +8,41 @@ html {
   /* Setting a base font size of 10px give us easier rem calculations
      Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
    */
-   font-size: 15px;
+   background: white;
+   padding: 50px;
+}
+
+main {
+  background: #efeae6;
+}
+
+h1, h2, h3 {
+   font-family: 'Montserrat', sans-serif;
+   text-align: center;
+   padding-bottom: 20px;
+}
+
+header h1 {
+   font-size: 60px;
+   background: linear-gradient(93deg, rgba(13,26,65,1) 0%, rgba(88,123,154,1) 36%, rgba(145,156,198,1) 74%, rgba(177,185,209,1) 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+
+}
+
+main .img-container {
+   background: #e7e0da;
+   display: flex;
+   align-items: center;
+   border: 2px solid #ae9884;
+  
+
+}
+
+main img {
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid #ae9884;
+  margin: 10px;
+
 }
