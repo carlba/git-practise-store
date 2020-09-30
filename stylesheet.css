@@ -10,6 +10,7 @@ html {
    */
    background: white;
    padding: 50px;
+   font-family: 'Open Sans', sans-serif;
 }
 
 main {
@@ -45,4 +46,13 @@ main img {
   border: 2px solid #ae9884;
   margin: 10px;
 
+}
+
+footer {
+   height: 150px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
 }
